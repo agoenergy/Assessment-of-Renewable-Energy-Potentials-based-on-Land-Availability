@@ -28,7 +28,7 @@ This project uses GIS model (Geographic Information System) along with spatial a
 
 There are many ways to install Python, but the Anaconda Python distribution is the easiest way for most new users to get started. Please check [Ananconda Install](https://www.anaconda.com/download/) on instructions to install anaconda, and [Anaconda Environment](https://conda.io/docs/user-guide/tasks/manage-environments.html) for creating and working with conda environement.
 
-Please clone the repository into a local folder. As this repository is under active development, and hence use of git vc is recommended to update the changes. Please feel free to contribute. The required packages are written in environment file (gis_land.yml). You can change the name of the environment in the gis_land.yml file: To create the environment navigate to local folder and use:
+Please clone the repository into a local folder. As this repository is under active development, and hence use of git vc is recommended to update the changes. Please feel free to contribute. The required packages are written in environment file ([gis_land.yml](gis_land.yml)). You can change the name of the environment in [gis_land.yml](gis_land.yml): To create the environment navigate to local folder and use:
 
 ```
 conda create env -f gis_land.yml

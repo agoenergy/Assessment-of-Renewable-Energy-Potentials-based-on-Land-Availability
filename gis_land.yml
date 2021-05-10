@@ -254,4 +254,3 @@ dependencies:
     - toml==0.10.2
     - xlrd==2.0.0
     - zict==2.0.0
-prefix: C:\Users\yu-chi.chang\anaconda3\envs\geopandas
