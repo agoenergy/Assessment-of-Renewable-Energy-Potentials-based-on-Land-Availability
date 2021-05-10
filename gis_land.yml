@@ -1,4 +1,4 @@
-name: geopandas
+name: gis_land
 channels:
   - conda-forge
   - defaults
