@@ -12,7 +12,7 @@ Author: Yu-Chi Chang <br> For questions please contact:
 
 04-May-2021 - v0.1 In this version, the implementation is done for Vietnam. The input and output data files are provided separately. The data files can be downloaded from [link](https://cloud.sefep.eu/s/iyobP85aHCDm5MF). 
 
-30-April-2021 - Intital version v0.0
+30-April-2021 - v0.0 Intital version 
 
 ## License
 
@@ -73,7 +73,7 @@ Since all sources are open sources and can be directly downloaded from websites,
 | Digital Elevation Model (DEM) | Elevation | Rasterfile (GeoTiff)| [OpenDevelopmentMekong](https://data.opendevelopmentmekong.net/en/dataset/digital-elevation-model-dem)| [CC-BY-SA-4.0](https://data.opendevelopmentmekong.net/en/dataset/digital-elevation-model-dem) | 
 | Solar Resources | Solar irradiation (GHI, GTI, DIF, DNI), PV power potential (PVOUT), Air temparature (TEMP), etc. | Rasterfile (GeoTiff) | [GlobalSolarAtlas](https://globalsolaratlas.info/download)| [CC-BY 4.0](https://globalsolaratlas.info/download) | 
 | Wind Resources | Wind speed, power density at different heights, etc. | Rasterfile (GeoTiff) | [GlobalWindAtlas](https://globalwindatlas.info/download/gis-files)| [CC-BY 4.0](https://globalwindatlas.info/about/TermsOfUse) | 
-| Time-Series Data | Annual hourly wind speed, solar irradiation (Latitude x Longtitude: 0.25° x 0.25°) | Network Common Data Form (NetCFD) | [Copernicus Climate Data Store/ECMWF (ERA5)](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=overview)| [Licence to use Copernicus Products](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=overview) |
+| Time-Series Data | Annual hourly wind speed, solar irradiation (Latitude x Longtitude: 0.25° x 0.25°) | Network Common Data Form (NetCDF) | [Copernicus Climate Data Store/ECMWF (ERA5)](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=overview)| [Licence to use Copernicus Products](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=overview) |
 
 # Example scripts as Jupyter notebooks
 
