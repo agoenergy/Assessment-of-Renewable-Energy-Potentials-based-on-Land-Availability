@@ -12,7 +12,7 @@ Author: Yu-Chi Chang <br> For questions please contact:
 
 04-May-2021 - v0.1 In this version, the implementation is done for Vietnam. The input and output data files are provided separately. The data files can be downloaded from [link](https://cloud.sefep.eu/s/iyobP85aHCDm5MF). 
 
-30-April-2021 - v0.0 Intital version 
+30-April-2021 - v0.0 Initial version 
 
 ## License
 
