@@ -8,11 +8,11 @@ Author: Yu-Chi Chang <br> For questions please contact:
 
 ## Release Note
 
-10-May-2021 - v0.2 Renew data sources with links of licensing.
+10-May-2021 - v1.0.0 Renew data sources with links of licensing.
 
-04-May-2021 - v0.1 In this version, the implementation is done for Vietnam. The input and output data files are provided separately. The data files can be downloaded from [link](https://cloud.sefep.eu/s/iyobP85aHCDm5MF). 
+04-May-2021 - v1.0.0-alpha In this version, the implementation is done for Vietnam. The input and output data files are provided separately. The data files can be downloaded from [link](https://cloud.sefep.eu/s/iyobP85aHCDm5MF). 
 
-30-April-2021 - v0.0 Initial version 
+30-April-2021 - v0.0.0 Initial version 
 
 ## License
 
