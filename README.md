@@ -4,7 +4,7 @@ Author: Yu-Chi Chang <br> For questions please contact:
 
 * Yu-Chi Chang ([yu-chi.chang@agora-energiewende.de](yu-chi.chang@agora-energiewende.de)) 
 * Samarth Kumar ([samarth.kumar@agora-energiewende.de](samarth.kumar@agora-energiewende.de))
-* Internation Energy Data and Modelling Team (IEDM) ([iedm@agora-energiewende.de](iedm@agora-energiewende.de) )
+* International Energy Data and Modelling Team (IEDM) ([iedm@agora-energiewende.de](iedm@agora-energiewende.de) )
 
 ## Release Note
 
