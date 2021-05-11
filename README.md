@@ -1,4 +1,4 @@
-# Assessment of Renewable Energy Potentials based on Land Availabilty
+# Assessment of Renewable Energy Potentials based on Land Availability
 
 Author: Yu-Chi Chang <br> For questions please contact: 
 
