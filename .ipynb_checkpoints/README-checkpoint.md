@@ -1,16 +1,19 @@
-# Assessment of Renewable Energy Potentials based on Land Availabilty
+# Assessment of Renewable Energy Potentials based on Land Availability
 
 Author: Yu-Chi Chang <br> For questions please contact: 
 
 * Yu-Chi Chang ([yu-chi.chang@agora-energiewende.de](yu-chi.chang@agora-energiewende.de)) 
 * Samarth Kumar ([samarth.kumar@agora-energiewende.de](samarth.kumar@agora-energiewende.de))
-* Internation Energy Data and Modelling Team (IEDM) ([iedm@agora-energiewende.de](iedm@agora-energiewende.de) )
+* International Energy Data and Modelling Team (IEDM) ([iedm@agora-energiewende.de](iedm@agora-energiewende.de) )
 
 ## Release Note
+12-May-2021 - v1.2.1 - Update time-series data in [03 Scenario analysis](03_scenario_analysis.ipynb)
 
-04-May-2021 - v0.1 In this version, the implementation is done for Vietnam. The input and output data files are provided separately. The data files can be downloaded from [link](https://cloud.sefep.eu/s/iyobP85aHCDm5MF). 
+10-May-2021 - v1.0.0 - Renew data sources with links of licensing.
 
-30-April-2021 - Intital version v0.0
+04-May-2021 - v1.0.0-alpha - In this version, the implementation is done for Vietnam. The input and output data files are provided separately. The data files can be downloaded from [link](https://cloud.sefep.eu/s/iyobP85aHCDm5MF). 
+
+30-April-2021 - v0.0.0 - Initial version 
 
 ## License
 
@@ -60,17 +63,18 @@ Since all sources are open sources and can be directly downloaded from websites,
 
 | Parameter | Description | Data Type | Source | License | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| Administartive Level 2 (Base Map) | Administrative boundaries of the second sub-national level (Country, County, etc) | Shapefile (Polygon) | [GADM](https://gadm.org/download_country_v3.html) | [GADM License](https://gadm.org/license.html) | 
-| Landuse | Forests, parks, residential, industrial, military, etc. | Shapefile (Polygon) | [OpenStreetMap](https://download.geofabrik.de/asia.html) | Open Database 1.0 License | | Building | Building outlines | Shapefile (Polygon) | [OpenStreetMap](https://download.geofabrik.de/asia.html) | Open Database 1.0 License | 
-| Water Areas | Rivers, lakes, reservoirs, docks, glaciers, etc. | Shapefile (Polygon) | [OpenStreetMap](https://download.geofabrik.de/asia.html) | Open Database 1.0 License | 
-| Roads Network | Road networks, tracks, paths, highways, etc. | Shapefile (Line) | [OpenStreetMap](https://download.geofabrik.de/asia.html) | Open Database 1.0 License | 
-| Railways | Railways, subways, trams, lifts, and cable cars, etc. | Shapefile (Line) | [OpenStreetMap](https://download.geofabrik.de/asia.html) | Open Database 1.0 License | 
-| Transport Stations | Railway stations, subway stations, airports, aprons | Shapefile (Point) | [OpenStreetMap](https://download.geofabrik.de/asia.html) | Open Database 1.0 License | 
+| Administartive Level 2 (Base Map) | Administrative boundaries of the second sub-national level (Country, County, etc) | Shapefile (Polygon) | [Humanitarian Data Exchange (HDX)/OCHA](https://data.humdata.org/dataset/viet-nam-administrative-boundaries-polygon-polyline) | [CC-BY 4.0](https://data.humdata.org/about/license) | 
+| Landuse | Forests, parks, residential, industrial, military, etc. | Shapefile (Polygon) | [OpenStreetMap](https://download.geofabrik.de/asia.html) | [ODbL 1.0](https://www.openstreetmap.org/copyright) | 
+| Building | Building outlines | Shapefile (Polygon) | [OpenStreetMap](https://download.geofabrik.de/asia.html) | [ODbL 1.0](https://www.openstreetmap.org/copyright) | 
+| Water Areas | Rivers, lakes, reservoirs, docks, glaciers, etc. | Shapefile (Polygon) | [OpenStreetMap](https://download.geofabrik.de/asia.html) | [ODbL 1.0](https://www.openstreetmap.org/copyright) | 
+| Roads Network | Road networks, tracks, paths, highways, etc. | Shapefile (Line) | [OpenStreetMap](https://download.geofabrik.de/asia.html) | [ODbL 1.0](https://www.openstreetmap.org/copyright) | 
+| Railways | Railways, subways, trams, lifts, and cable cars, etc. | Shapefile (Line) | [OpenStreetMap](https://download.geofabrik.de/asia.html) | [ODbL 1.0](https://www.openstreetmap.org/copyright) | 
+| Transport Stations | Railway stations, subway stations, airports, aprons | Shapefile (Point) | [OpenStreetMap](https://download.geofabrik.de/asia.html) | [ODbL 1.0](https://www.openstreetmap.org/copyright) | 
 | Transmission Lines | Exisitng electricity transmission network (110kV, 200kV, 500kV) | Shapefile (Line) | [WorldBank](https://datacatalog.worldbank.org/dataset/vietnam-electricity-transmission-network-2016)| [CC-BY 4.0](https://datacatalog.worldbank.org/public-licenses#cc-by) | 
 | Digital Elevation Model (DEM) | Elevation | Rasterfile (GeoTiff)| [OpenDevelopmentMekong](https://data.opendevelopmentmekong.net/en/dataset/digital-elevation-model-dem)| [CC-BY-SA-4.0](https://data.opendevelopmentmekong.net/en/dataset/digital-elevation-model-dem) | 
 | Solar Resources | Solar irradiation (GHI, GTI, DIF, DNI), PV power potential (PVOUT), Air temparature (TEMP), etc. | Rasterfile (GeoTiff) | [GlobalSolarAtlas](https://globalsolaratlas.info/download)| [CC-BY 4.0](https://globalsolaratlas.info/download) | 
 | Wind Resources | Wind speed, power density at different heights, etc. | Rasterfile (GeoTiff) | [GlobalWindAtlas](https://globalwindatlas.info/download/gis-files)| [CC-BY 4.0](https://globalwindatlas.info/about/TermsOfUse) | 
-| Time-Series Data | Annual hourly wind speed, solar irradiation (Latitude x Longtitude: 0.25° x 0.25°) | Network Common Data Form (NetCFD) | [Copernicus Climate Data Store/ECMWF (ERA5)](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=overview)| [Licence to use Copernicus Products](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=overview) |
+| Time-Series Data | Annual hourly wind speed, solar irradiation (Latitude x Longtitude: 0.25° x 0.25°) | Network Common Data Form (NetCDF) | [Copernicus Climate Data Store/ECMWF (ERA5)](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=overview)| [Licence to use Copernicus Products](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=overview) |
 
 # Example scripts as Jupyter notebooks
 
