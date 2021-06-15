@@ -7,7 +7,7 @@ Author: Yu-Chi Chang <br> For questions please contact:
 * International Energy Data and Modelling Team (IEDM) ([iedm@agora-energiewende.de](iedm@agora-energiewende.de) )
 
 ## Release Note
-15-June-2021 - v1.3.0 - Update in [03 Scenario analysis](03_scenario_analysis.ipynb)
+15-June-2021 - v1.3.1 - Update in [03 Scenario analysis](03_scenario_analysis.ipynb)
 
 12-May-2021 - v1.2.1 - Update hourly data in [03 Scenario analysis](03_scenario_analysis.ipynb)
 
