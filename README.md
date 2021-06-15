@@ -7,7 +7,9 @@ Author: Yu-Chi Chang <br> For questions please contact:
 * International Energy Data and Modelling Team (IEDM) ([iedm@agora-energiewende.de](iedm@agora-energiewende.de) )
 
 ## Release Note
-12-May-2021 - v1.2.1 - Update time-series data in [03 Scenario analysis](03_scenario_analysis.ipynb)
+15-June-2021 - v1.3.0 - Update in [03 Scenario analysis](03_scenario_analysis.ipynb)
+
+12-May-2021 - v1.2.1 - Update hourly data in [03 Scenario analysis](03_scenario_analysis.ipynb)
 
 10-May-2021 - v1.0.0 - Renew data sources with links of licensing.
 
@@ -59,7 +61,7 @@ Since all sources are open sources and can be directly downloaded from websites,
 2. Download the data from each source seperately. Create and store in below subfolders:
 * 00_data_vector (for vector data)
 * 00_data_raster (for raster data)
-* 00_data_time_series (for hourly time-series data)
+* 00_data_time_series (for hourly data)
 
 | Parameter | Description | Data Type | Source | License | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | 
