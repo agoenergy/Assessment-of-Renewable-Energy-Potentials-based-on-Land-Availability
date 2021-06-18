@@ -7,9 +7,11 @@ Author: Yu-Chi Chang <br> For questions please contact:
 * International Energy Data and Modelling Team (IEDM) ([iedm@agora-energiewende.de](iedm@agora-energiewende.de) )
 
 ## Release Note
-15-June-2021 - v1.3.1 - Update in [03 Scenario analysis](03_scenario_analysis.ipynb)
+17-June-2021 - v1.4.0 - Implementation of the models
 
-12-May-2021 - v1.2.1 - Update hourly data in [03 Scenario analysis](03_scenario_analysis.ipynb)
+15-June-2021 - v1.3.1 - Update in [03 Capacity and generation analysis](03_capacity_generation_analysis.ipynb)
+
+12-May-2021 - v1.2.1 - Update hourly data in [03 Capacity and generation analysis](03_capacity_generation_analysis.ipynb)
 
 10-May-2021 - v1.0.0 - Renew data sources with links of licensing.
 
@@ -76,7 +78,8 @@ Since all sources are open sources and can be directly downloaded from websites,
 | Digital Elevation Model (DEM) | Elevation | Rasterfile (GeoTiff)| [OpenDevelopmentMekong](https://data.opendevelopmentmekong.net/en/dataset/digital-elevation-model-dem)| [CC-BY-SA-4.0](https://data.opendevelopmentmekong.net/en/dataset/digital-elevation-model-dem) | 
 | Solar Resources | Solar irradiation (GHI, GTI, DIF, DNI), PV power potential (PVOUT), Air temparature (TEMP), etc. | Rasterfile (GeoTiff) | [GlobalSolarAtlas](https://globalsolaratlas.info/download)| [CC-BY 4.0](https://globalsolaratlas.info/download) | 
 | Wind Resources | Wind speed, power density at different heights, etc. | Rasterfile (GeoTiff) | [GlobalWindAtlas](https://globalwindatlas.info/download/gis-files)| [CC-BY 4.0](https://globalwindatlas.info/about/TermsOfUse) | 
-| Time-Series Data | Annual hourly wind speed, solar irradiation (Latitude x Longtitude: 0.25° x 0.25°) | Network Common Data Form (NetCDF) | [Copernicus Climate Data Store/ECMWF (ERA5)](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=overview)| [Licence to use Copernicus Products](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=overview) |
+| Hourly Data | Annual hourly wind speed, solar irradiation (Latitude x Longtitude: 0.25° x 0.25°) | Network Common Data Form (NetCDF) | [Copernicus Climate Data Store/ECMWF (ERA5)](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=overview)| [Licence to use Copernicus Products](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=overview) |
+| Estimated Hourly Generation Data | Annual hourly estmated generation data | Renewables Ninja | [Renewables Ninja](https://www.renewables.ninja/)| [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) |
 
 # Example scripts as Jupyter notebooks
 
@@ -86,10 +89,10 @@ The package codes are available as three jupyter notebooks:
 
   Land evaluation: find out available lands that can be used for renewable energy development.
 
-* [02 Renewable energy potentials](02_renewable_potentials.ipynb)
+* [02 Renewable energy potentials](02_renewables_potentials.ipynb)
 
   Renewable energy potentials: apply energy parameters onto the available land (output from the first stage).
 
-* [03 Scenario analysis](03_scenario_analysis.ipynb)
+* [03 Capacity and generation analysis](03_capacity_generation_analysis.ipynb)
 
-  Based on the output of stage 1 and 2, the potential capactiy can be found based on some performance assumptions from current types of PV panels and wind turbine. Besides, combined with time-series data from open sources (hourly wind speed, hourly solar irradiation, etc), the estimated annual generation can be calculated.
+  Based on the output of stage 1 and 2, the potential capactiy can be found based on some performance assumptions from current types of PV panels and wind turbine. Besides, combined with hourly data from open sources (hourly wind speed, hourly solar irradiation, etc), the estimated annual generation can be calculated.
