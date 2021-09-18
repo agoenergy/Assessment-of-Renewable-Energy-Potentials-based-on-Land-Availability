@@ -7,12 +7,18 @@ Author: Yu-Chi Chang <br> For questions please contact:
 * International Energy Data and Modelling Team (IEDM) ([iedm@agora-energiewende.de](iedm@agora-energiewende.de) )
 
 ## Release Note
-18-September-2021 - v1.5.0 - Implementation and adjustment of calculation methods of the models
+18-September-2021 - v1.5.1 - Implementation and adjustment of calculation methods of the models
+
 17-June-2021 - v1.4.0 - Implementation of the models
+
 15-June-2021 - v1.3.1 - Update in [03 Capacity and generation analysis](03_capacity_generation_analysis.ipynb)
+
 12-May-2021 - v1.2.1 - Update hourly data in [03 Capacity and generation analysis](03_capacity_generation_analysis.ipynb)
+
 10-May-2021 - v1.0.0 - Renew data sources with links of licensing.
-04-May-2021 - v1.0.0-alpha - In this version, the implementation is done for Vietnam. The input and output data files are provided separately. The data files can be downloaded from [link](https://cloud.sefep.eu/s/iyobP85aHCDm5MF). 
+
+04-May-2021 - v1.0.0-alpha - In this version, the implementation is done for Vietnam. The input and output data files are provided separately. The data files can be downloaded from [link](https://cloud.sefep.eu/s/iyobP85aHCDm5MF).
+ 
 30-April-2021 - v0.0.0 - Initial version 
 
 ## License
