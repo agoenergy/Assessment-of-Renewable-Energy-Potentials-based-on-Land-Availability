@@ -7,7 +7,7 @@ Author: Yu-Chi Chang <br> For questions please contact:
 * International Energy Data and Modelling Team (IEDM) ([iedm@agora-energiewende.de](iedm@agora-energiewende.de) )
 
 ## Release Note
-02-October-2021 - v1.5.2 -  Update in [03 Capacity and generation analysis](03_capacity_generation_analysis.ipynb)
+02-October-2021 - v1.5.3 -  Update in [03 Capacity and generation analysis](03_capacity_generation_analysis.ipynb)
 
 18-September-2021 - v1.5.1 - Implementation and adjustment of calculation methods of the models
 
