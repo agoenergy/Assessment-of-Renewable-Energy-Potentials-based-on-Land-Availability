@@ -7,6 +7,8 @@ Author: Yu-Chi Chang <br> For questions please contact:
 * International Energy Data and Modelling Team (IEDM) ([iedm@agora-energiewende.de](iedm@agora-energiewende.de) )
 
 ## Release Note
+02-October-2021 - v1.3.1 -  Update in [03 Capacity and generation analysis](03_capacity_generation_analysis.ipynb)
+
 18-September-2021 - v1.5.1 - Implementation and adjustment of calculation methods of the models
 
 17-June-2021 - v1.4.0 - Implementation of the models
@@ -27,7 +29,7 @@ Author: Yu-Chi Chang <br> For questions please contact:
 
 # About
 
-This project uses GIS model (Geographic Information System) along with spatial and statistical methods to analyse, store and calculate the digital information based on earth geographic surface. The model is divided into three stages (Land evaluation, renewable energy potentials and scenario analysis), and the structure is developed using Python scripts.
+This project uses GIS model (Geographic Information System) along with spatial and statistical methods to analyse, store and calculate the digital information based on earth geographic surface. The model is divided into three stages (Land evaluation, renewable energy potentials and capacity and generation analysis), and the structure is developed using Python scripts.
 
 # Methodology
 
