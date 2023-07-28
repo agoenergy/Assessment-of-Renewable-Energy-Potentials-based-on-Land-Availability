@@ -1,7 +1,7 @@
 # Assessment of Renewable Energy Potentials based on Land Availability
 
 For questions please contact: 
-* Energy Data and Modelling Team (EDM) ([edm-tech@agora-energiewende.de](edm-tech@agora-energiewende.de))
+* Energy Data and Modelling Team (EDM) ([edm@agora-energiewende.de](edm@agora-energiewende.de))
 
 ## Release Note
 02-October-2021 - v1.5.3 -  Update in [03 Capacity and generation analysis](03_capacity_generation_analysis.ipynb)
