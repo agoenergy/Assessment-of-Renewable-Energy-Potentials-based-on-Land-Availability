@@ -1,10 +1,7 @@
 # Assessment of Renewable Energy Potentials based on Land Availability
 
-Author: Yu-Chi Chang <br> For questions please contact: 
-
-* Yu-Chi Chang ([yu-chi.chang@agora-energiewende.de](yu-chi.chang@agora-energiewende.de)) 
-* Samarth Kumar ([samarth.kumar@agora-energiewende.de](samarth.kumar@agora-energiewende.de))
-* Energy Data and Modelling Team (EDM) ([edm-tech@agora-energiewende.de](edm-tech@agora-energiewende.de) )
+For questions please contact: 
+* Energy Data and Modelling Team (EDM) ([edm-tech@agora-energiewende.de](edm-tech@agora-energiewende.de))
 
 ## Release Note
 02-October-2021 - v1.5.3 -  Update in [03 Capacity and generation analysis](03_capacity_generation_analysis.ipynb)
